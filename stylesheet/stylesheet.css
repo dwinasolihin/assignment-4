@@ -1,9 +1,10 @@
 /*
-  Created stylesheet.css to fit with with 
+  stylesheet.css contains the css information in regards to the page layout and formatting for index.html in assignment 4. 
 */
 
 /*Header section worked on by Andrew*/
 
+/******************************/
 /*Main section worked on by me*/
 main {
   background-color: white;
@@ -16,6 +17,7 @@ main {
   height: 10rem; 
 }
 
+/*Sets the all-testimonials section to the left*/
 .all-testimonials {
   position: relative;
   width: 30rem;
@@ -24,16 +26,17 @@ main {
   left 150px;
 }
 
+/*Puts the cat promotions with Odin and Biscuit to the right in a box*/
 .cat-promotion {
   position: absolute;
   width: 18rem;
   height: 30rem;
   top: 140px;
   right: 150px;
-  
   border: 1px solid black;
 }
 
+/*Sets the size of the images */
 img {
   height: 100px;
   width: 160px;
@@ -42,6 +45,7 @@ img {
   margin-right: auto;
 }
 
+/*Centers the names and headlines within the cat promotion box to be centered*/
 h3, .center-name {
   display: block;
   margin-left: auto;
@@ -49,34 +53,10 @@ h3, .center-name {
   width: 50%;
 }
 
+/*Puts the booking text in cat promotion box to be right-aligned*/
 .booking {
   text-align: right;
 }
-
-
-/*
-.all-testimonials{
-  display: inline-flex;
-  border: 1px solid black;
-  
-}
-.cat-promotion {
-  border: 1px solid black;
-  display: inline-flex;
-  align-content: 
-}
-
-.cat-in-basket{
-  display: block;
-}
-.cat-on-bed{
-  display: block;
-}
-*/
-
-
-
-
 /******************************/
 
 /*Footer section worked on by Andrew*/
