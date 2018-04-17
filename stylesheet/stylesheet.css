@@ -5,6 +5,78 @@
 /*Header section worked on by Andrew*/
 
 /*Main section worked on by me*/
+main {
+  background-color: white;
+}
 
+/*sets position of class story*/
+.story {
+  position: relative;
+  width: 30rem;
+  height: 10rem; 
+}
+
+.all-testimonials {
+  position: relative;
+  width: 30rem;
+  height: 10rem;
+  top; 150px;
+  left 150px;
+}
+
+.cat-promotion {
+  position: absolute;
+  width: 18rem;
+  height: 30rem;
+  top: 140px;
+  right: 150px;
+  
+  border: 1px solid black;
+}
+
+img {
+  height: 100px;
+  width: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3, .center-name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.booking {
+  text-align: right;
+}
+
+
+/*
+.all-testimonials{
+  display: inline-flex;
+  border: 1px solid black;
+  
+}
+.cat-promotion {
+  border: 1px solid black;
+  display: inline-flex;
+  align-content: 
+}
+
+.cat-in-basket{
+  display: block;
+}
+.cat-on-bed{
+  display: block;
+}
+*/
+
+
+
+
+/******************************/
 
 /*Footer section worked on by Andrew*/

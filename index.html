@@ -16,7 +16,7 @@ Andrew did the header/footer while I worked on the body section.
     <meta name="author" content="Andrew Donaghy, Dwina Solihin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">
     <title>Kitties To Go</title>
   </head>
 <!---->
@@ -26,7 +26,7 @@ Andrew did the header/footer while I worked on the body section.
   <header>
       <a class="push right" href="#">Open right MEOW! book a cat &rarr;</a>
       <h1>Kitties To Go!</h1>
-      <h3>Seattle's premiere drive-thru cat rentals</h3>
+      <h2>Seattle's premiere drive-thru cat rentals</h2>
       <nav>
         <ul>
           <li>
@@ -51,37 +51,37 @@ Andrew did the header/footer while I worked on the body section.
   <!--Left side-->
   <main>
     <article>
-      <section>
+      <section class="story">
         <h2>The Kitties To Go Story</h2>
         <p>
-          Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk away destrop the blinds for curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper. 
+          Cat ipsum dolor sit amet, has closed eyes but still sees you meow. Scratch at the door then walk away destroy the blinds for curl into a furry donut swat turds around the house kick up litter thug cat stare at ceiling light. Intently stare at the same spot paw at beetle and eat it before it gets away scamper. 
         </p>
       </section>
         
-      <section>
+      <section class="all-testimonials">
         <h2>Testimonials</h2>
         <p class="testimonial">
           "Please stop looking at your phone and pet me. Lounge in doorway eat and then sleep on your face meowwww meowww" - Jeremy
         </p>
     
         <p class="testimonial">
-          "Meow get vieo posted to internet for chasing red dot." - Jenny from the block
+          "Meow get video posted to internet for chasing red dot." - Jenny from the block
         </p>
       </section>
     
-    <aside>
-      <section>
+    <aside class="cat-promotion">
+      <section class="cat-in-basket">
         <h3>Cat of the Week</h3>
-        <img>
+        <img src="img/basket-cat.jpg" alt="cat in basket">
         <h4 class="center-name">The Biscuit</h4>
-        <a href="#" class="booking-link">Book Now --></a>
+        <p class="booking">Look at this sweet biscuit <a href="#" class="booking-link">Book Now --></a></p>
       </section>
     
-      <section>
+      <section class="cat-on-bed">
         <h3>Fan Favorite</h3>
-        <img>
+        <img src="img/bed-cat.jpg" alt="cat on bed">
         <h4 class="center-name"> Odin</h4>
-        <a href="#" class="booking-link">Book Now --></a>
+        <p class="booking">He just wants to cuddle <a href="#" class="booking-link">Book Now --></a></p>
       </section>
     </aside>
   </article>
@@ -93,10 +93,12 @@ Andrew did the header/footer while I worked on the body section.
       <p>Kitties To Go!</p>
       <p>(555) 867-5309</p> 
       <a href="#">kittiestogo@catmail.com</a>
+    
       <div class="copyright">
         <p>Please Cat Responsibly</p> 
         <p>copyright 2016 Kitties To Go!, LLC</p> 
       </div>
+    
     </footer>
   </body>
 </html>
