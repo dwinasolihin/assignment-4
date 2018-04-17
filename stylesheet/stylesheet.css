@@ -24,7 +24,7 @@ main {
   position: absolute;
   width: 30rem;
   height: 10rem; 
-  top: 300px;
+  top: 400px;
   left: 250px;
 }
 
@@ -58,6 +58,13 @@ h3, .center-name {
 /*Puts the booking text in cat promotion box to be right-aligned*/
 .booking {
   text-align: right;
+}
+
+.story {
+  font-size: 20px;
+}
+.testimonial {
+  font-size: 18px;
 }
 /******************************/
 
