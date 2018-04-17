@@ -12,39 +12,53 @@ main {
 
 /*sets position of class story*/
 .story {
-  position: relative;
+  position: absolute;
   width: 30rem;
   height: 10rem; 
+  top: 140px;
+  left: 250px;
 }
 
 /*Sets the all-testimonials section to the left*/
 .all-testimonials {
-  position: relative;
+  position: absolute;
   width: 30rem;
-  height: 10rem;
-  top; 150px;
-  left 150px;
+  height: 10rem; 
+  top: 400px;
+  left: 250px;
 }
 
 /*Puts the cat promotions with Odin and Biscuit to the right in a box*/
 .cat-promotion {
   position: absolute;
   width: 18rem;
-  height: 30rem;
+  height: 28rem;
   top: 140px;
-  right: 150px;
+  right: 250px;
   border: 1px solid black;
 }
 
 /*Sets the size of the images */
 img {
-  height: 100px;
-  width: 160px;
+  height: 120px;
+  width: 180px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.center-name{
+  padding: 5px;
+  margin: 5px;
+}
+
+.booking {
+  margin: 1px;
+}
+
+h3{
+  margin: 10px;
+}
 /*Centers the names and headlines within the cat promotion box to be centered*/
 h3, .center-name {
   display: block;
@@ -56,6 +70,13 @@ h3, .center-name {
 /*Puts the booking text in cat promotion box to be right-aligned*/
 .booking {
   text-align: right;
+}
+
+.story {
+  font-size: 20px;
+}
+.testimonial {
+  font-size: 18px;
 }
 /******************************/
 
