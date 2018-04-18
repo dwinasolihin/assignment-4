@@ -63,6 +63,14 @@ h1{
 header {
   text-align: right;
   padding: 1rem 0rem 0rem 0rem;
+  
+  position: absolute; 
+  top: 5a0px; 
+  left: 230px; 
+  right: 230px;
+  padding-top:-2rem;
+  padding-bottom:-2rem;
+  margin-top:-2rem;
 }
 
 header a{
@@ -200,7 +208,7 @@ main {
   position: absolute;
   width: 18rem;
   height: 28rem;
-  top: 320px;
+  top: 325px;
   right: 230px;
   border: 1px solid black;
 }
