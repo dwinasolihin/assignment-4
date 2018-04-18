@@ -63,6 +63,14 @@ h1{
 header {
   text-align: right;
   padding: 1rem 0rem 0rem 0rem;
+  
+  position: absolute; 
+  top: 50px; 
+  left: 230px; 
+  right: 230px;
+  padding-top:-2rem;
+  padding-bottom:-2rem;
+  margin-top:-2rem;
 }
 
 header a{
