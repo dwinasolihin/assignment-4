@@ -64,7 +64,7 @@ header {
   text-align: right;
   padding: 1rem 0rem 0rem 0rem;
   
-  position: absolute; 
+  position: relative; 
   top: 2rem;
   /*
   float: right;
@@ -178,7 +178,7 @@ h3, .center-name {
 
 /*Footer section worked on by Andrew*/
 footer{
-  position: absolute; 
+  position: relative; 
   bottom: -230px; 
   left: 230px; 
   right: 230px;
