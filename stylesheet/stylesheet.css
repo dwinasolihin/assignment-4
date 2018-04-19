@@ -63,19 +63,7 @@ h1{
 header {
   text-align: right;
   padding: 1rem 0rem 0rem 0rem;
-  
-  position: relative; 
-  top: 2rem;
-  /*
-  float: right;
-  
-  top: 50px; 
-  left: 230px; 
-  right: 230px;
-  */
-  padding-top:-2rem;
-  padding-bottom:-2rem;
-  margin-top:-2rem;
+
 }
 
 header a{
@@ -103,36 +91,27 @@ header h3{
 /******************************/
 /*Main section worked on by me*/
 main {
+  margin-top: 2rem;
   background-color: white;
 }
 
-/*sets position of class story*/
-.story {
-  position: absolute;
-  width: 30rem;
-  height: 10rem; 
-  top: 300px;
-  float: left;
-}
-
-/*Sets the all-testimonials section to the left*/
-.all-testimonials {
-  position: absolute;
-  width: 30rem;
-  height: 10rem; 
-  top: 550px;
-  float: left;
+/*Sets the all-testimonials and story section to the left*/
+article{
+  float:left;
+  width:25rem;
+  margin-right:3rem;
+  margin-bottom: 3rem;
 }
 
 /*Puts the cat promotions with Odin and Biscuit to the right in a box*/
-.cat-promotion {
+aside{
   position: absolute;
   width: 18rem;
   height: 28rem;
   top: 325px;
   right: 15rem;
   border: 1px solid black;
-}
+ }
 
 /*Sets the size of the images */
 img {
@@ -148,13 +127,10 @@ img {
   margin: 5px;
 }
 
-.booking {
-  margin: 1px;
-}
-
 h3{
   margin: 10px;
 }
+
 /*Centers the names and headlines within the cat promotion box to be centered*/
 h3, .center-name {
   display: block;
@@ -165,6 +141,7 @@ h3, .center-name {
 
 /*Puts the booking text in cat promotion box to be right-aligned*/
 .booking {
+  margin: 1px;
   text-align: right;
 }
 
@@ -177,22 +154,18 @@ h3, .center-name {
 /******************************/
 
 /*Footer section worked on by Andrew*/
-footer{  
-  position: relative; 
-  bottom: -230px; 
-  left: 230px; 
-  right: 230px;
-  padding-top:-2rem;
-  padding-bottom:-2rem;
-  margin-top:-2rem;
-  
+footer{
+  clear:both;
+  padding-top:2rem;
+  padding-bottom:1rem;
 }
 footer p{
   color:white;
   font-size:-0.5em;
   box-sizing: border-box;
-  padding:2px;
-  margin:5px;
+  padding:0;
+  margin:0;
+  font-weight: 100;
 }
 
 .copyright{
@@ -201,9 +174,6 @@ footer p{
   font-size: 10px;
   margin: 5px;
 }
-
-
-
 
 /*linkstates*/
 
