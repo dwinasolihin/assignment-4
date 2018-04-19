@@ -64,7 +64,7 @@ header {
   text-align: right;
   padding: 1rem 0rem 0rem 0rem;
   
-  position: absolute; 
+  position: relative; 
   top: 2rem;
   /*
   float: right;
@@ -99,90 +99,6 @@ header h3{
   font-size: 1.5em;
   font-weight:100;
 }
-
-/*Footer section worked on by Andrew*/
-footer{
-  
-  /*position: absolute;
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin-top:2rem;
-  bottom: -250px;
-  left: 240px;
-  */
-  
-  position: absolute; 
-  bottom: -230px; 
-  left: 230px; 
-  right: 230px;
-  padding-top:-2rem;
-  padding-bottom:-2rem;
-  margin-top:-2rem;
-  
-}
-footer p{
-  color:white;
-  font-size:-0.5em;
-  box-sizing: border-box;
-  padding:2px;
-  margin:5px;
-}
-
-.copyright{
-  bottom: -200px;
-  text-align:center;
-  font-size: 10px;
-  margin: 5px;
-}
-
-
-
-
-/*linkstates*/
-
-a:link {
-    color: red;
-}
-
-
-a:visited {
-    color: red;
-}
-
-
-a:hover {
-    color: skyblue;
-}
-
-
-a:active {
-    color: skyblue;
-}
-
-
-/*nav linkstates*/
-
-nav a:link {
-    color: purple;
-}
-
-
-nav a:visited {
-    color: purple;
-}
-
-
-nav a:hover {
-    color: forestgreen;
-}
-
-
-nav a:active {
-    color: forestgreen;
-}
-/********/
-
-/*
 
 /******************************/
 /*Main section worked on by me*/
@@ -259,3 +175,78 @@ h3, .center-name {
   font-size: 18px;
 }
 /******************************/
+
+/*Footer section worked on by Andrew*/
+footer{  
+  position: relative; 
+  bottom: -230px; 
+  left: 230px; 
+  right: 230px;
+  padding-top:-2rem;
+  padding-bottom:-2rem;
+  margin-top:-2rem;
+  
+}
+footer p{
+  color:white;
+  font-size:-0.5em;
+  box-sizing: border-box;
+  padding:2px;
+  margin:5px;
+}
+
+.copyright{
+  bottom: -200px;
+  text-align:center;
+  font-size: 10px;
+  margin: 5px;
+}
+
+
+
+
+/*linkstates*/
+
+a:link {
+    color: red;
+}
+
+
+a:visited {
+    color: red;
+}
+
+
+a:hover {
+    color: skyblue;
+}
+
+
+a:active {
+    color: skyblue;
+}
+
+
+/*nav linkstates*/
+
+nav a:link {
+    color: purple;
+}
+
+
+nav a:visited {
+    color: purple;
+}
+
+
+nav a:hover {
+    color: forestgreen;
+}
+
+
+nav a:active {
+    color: forestgreen;
+}
+/********/
+
+/*
