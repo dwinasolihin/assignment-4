@@ -63,14 +63,7 @@ h1{
 header {
   text-align: right;
   padding: 1rem 0rem 0rem 0rem;
-  
-  position: fixed; 
-  top: 2rem;
-  padding-top:-2rem;
-  padding-bottom:-2rem;
-  margin-top:-2rem;
-  
-  width: 100%;
+
 }
 
 header a{
@@ -98,16 +91,18 @@ header h3{
 /******************************/
 /*Main section worked on by me*/
 main {
+  margin-top: 2rem;
   background-color: white;
 }
 
 /*sets position of class story*/
 .story {
-  position: absolute;
+  float: left;
   width: 30rem;
+  position: absolute;
   height: 10rem; 
   top: 300px;
-  float: left;
+  
 }
 
 /*Sets the all-testimonials section to the left*/
@@ -173,23 +168,20 @@ h3, .center-name {
 
 /*Footer section worked on by Andrew*/
 footer{
-  position: fixed; 
-  bottom: -230px; 
+  position: absolute; 
+  padding-top:2rem;
+  padding-bottom:1rem;
   left: 230px; 
   right: 230px;
-  padding-top:-2rem;
-  padding-bottom:-2rem;
-  margin-top:-2rem;
-  
-  width: 100%
-  
+  bottom: -230px;
 }
 footer p{
   color:white;
   font-size:-0.5em;
   box-sizing: border-box;
-  padding:2px;
-  margin:5px;
+  padding:0;
+  margin:0;
+  font-weight: 100;
 }
 
 .copyright{
