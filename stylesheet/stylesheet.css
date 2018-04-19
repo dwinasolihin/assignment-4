@@ -95,6 +95,7 @@ main {
   background-color: white;
 }
 
+/*Sets the all-testimonials and story section to the left*/
 article{
   float:left;
   width:25rem;
@@ -102,6 +103,7 @@ article{
   margin-bottom: 3rem;
 }
 
+/*Puts the cat promotions with Odin and Biscuit to the right in a box*/
 aside{
   position: absolute;
   width: 18rem;
@@ -110,9 +112,6 @@ aside{
   right: 15rem;
   border: 1px solid black;
  }
-
-/*Puts the cat promotions with Odin and Biscuit to the right in a box*/
-
 
 /*Sets the size of the images */
 img {
@@ -131,6 +130,7 @@ img {
 h3{
   margin: 10px;
 }
+
 /*Centers the names and headlines within the cat promotion box to be centered*/
 h3, .center-name {
   display: block;
