@@ -104,13 +104,11 @@ article{
 
 aside{
   position: absolute;
-  float: right;
-  padding: 1rem;
-  border: 1px solid black;
-  top: 20rem;
   width: 18rem;
-  right: 20%;
-  box-sizing: border-box;
+  height: 28rem;
+  top: 325px;
+  right: 15rem;
+  border: 1px solid black;
  }
 
 /*Puts the cat promotions with Odin and Biscuit to the right in a box*/
