@@ -66,16 +66,11 @@ header {
   
   position: relative; 
   top: 2rem;
-  /*
-  float: right;
-  
-  top: 50px; 
-  left: 230px; 
-  right: 230px;
-  */
   padding-top:-2rem;
   padding-bottom:-2rem;
   margin-top:-2rem;
+  
+  width: 100%;
 }
 
 header a{
@@ -185,6 +180,8 @@ footer{
   padding-top:-2rem;
   padding-bottom:-2rem;
   margin-top:-2rem;
+  
+  width: 100%
   
 }
 footer p{
